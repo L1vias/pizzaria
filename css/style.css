@@ -231,5 +231,16 @@ font-weight: 900;
 #Delivery .sec-menu{
   justify-content: center;
   padding: 40px;
+}
 
+#icone{
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin: 20px 0;
+}
+
+.itens{
+  max-width: 250px;
+  text-align: center;
 }
