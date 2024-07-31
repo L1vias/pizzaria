@@ -201,7 +201,7 @@ border-bottom: 2px solid #6b7552;
   display: flex;
 }
 
-#PromoPizza img {
+#PromoPizza {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -211,13 +211,25 @@ border-bottom: 2px solid #6b7552;
   padding: 20px;
 }
 
-
-
-
-
-/* 
-#cardápio div{
-  width: 100%;
+#Delivery{
+  max-height: 270px;
+  background: #ebe7de;
+  margin: 50px 0;
   display: flex;
-  justify-content: space-between;
-} */
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  text-align: center;
+}
+
+#Delivery h1{
+text-transform: uppercase;
+color: #bf0a26;
+font-weight: 900;
+}
+
+#Delivery .sec-menu{
+  justify-content: center;
+  padding: 40px;
+
+}
